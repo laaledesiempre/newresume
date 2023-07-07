@@ -1,0 +1,14 @@
+.image-wrapper{
+  width: 100vw;
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+.image-wrapper > img{
+  min-width:1000px;
+  width: 100vw;
+  z-index: -1;
+  opacity: 0.4;
+}
