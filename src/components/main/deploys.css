@@ -17,8 +17,21 @@
   margin-block:1rem;
 }
 .deploys-wrapper > article >h4{
-  font-size: 5vw;
+  font-size: max(5vw,2rem);
+  margin: 1rem auto; 
+}  
+.desktop-image{
+  display:block
+}
+.mobile-image{
+  display:none
 }
 @media (max-width: 900px){
+  .desktop-image{
+    display:none
+  }
+  .mobile-image{
+    display:block
+  }
   }
 
