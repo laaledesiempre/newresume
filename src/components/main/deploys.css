@@ -26,7 +26,17 @@
 .mobile-image{
   display:none
 }
+.deploys-wrapper > article > a{
+  font-size: max(5vw,2rem);
+  text-decoration: underline;
+}
+.deploys-wrapper > article > span{
+  font-size: max(5vw,2rem);
+}
 @media (max-width: 900px){
+.deploys-wrapper{
+  padding: 0.5rem;
+}
   .desktop-image{
     display:none
   }
