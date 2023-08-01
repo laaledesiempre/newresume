@@ -17,7 +17,7 @@ export const Deploys = () => {
           <img className="desktop-image" src={e.image} />
           <img className="mobile-image" src={e.imageResponsive} />
           {/* todo: make an responsive screenshot for mobile version*/}
-          <a href={e.link}>Click to see!</a>
+          <a target="_blank" href={e.link}>Click to see!</a>
         </article>
       })}
     </section>
