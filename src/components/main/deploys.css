@@ -17,8 +17,8 @@
   margin-block:1rem;
 }
 .deploys-wrapper > article >h4{
-  font-size: max(5vw,2rem);
-  font-weight: 1000;
+  font-size: 5rem;
+  font-weight: 2000;
   margin: 1rem auto; 
 }  
 .desktop-image{
@@ -28,13 +28,20 @@
   display:none
 }
 .deploys-wrapper > article > a{
-  font-size: max(5vw,2rem);
+  font-size: 5rem;
   text-decoration: underline;
 }
 .deploys-wrapper > article > span{
   font-size: max(5vw,2rem);
 }
 @media (max-width: 900px){
+
+.deploys-wrapper > article > a{
+  font-size: 2rem;
+}
+.deploys-wrapper > article >h4{
+  font-size: 2rem;
+}
 .deploys-wrapper{
   padding: 0.5rem;
 }

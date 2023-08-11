@@ -25,11 +25,15 @@ export const Techs = () => {
         <TechBall stars={2} tech={"Python"} description={"Argentina Programa"} />
       </section>
       <section className='technologies'>
-        <TechBall stars={2} tech={"Linux Kernel"} description={"Debian based distros"} />
-        <TechBall stars={3} tech={"Photoshop & Illustrator"} description={""} />
+        <TechBall stars={2} tech={"Linux"} description={""} />
+
+        <TechBall stars={2} tech={"Docker"} description={"and docker compose"} />
         <TechBall stars={2} tech={"Typescript"} description={""} />
       </section>
       <section className='technologies'>
+
+        <TechBall stars={2} tech={"NGINX"} description={""} />
+        <TechBall stars={3} tech={"Photoshop & Illustrator"} description={""} />
         <TechBall stars={1} tech={"C#"} description={"Microsoft Learn"} />
         <TechBall stars={3} tech={"Lua"} description={""} />
       </section>

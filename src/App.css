@@ -1,14 +1,20 @@
 .image-wrapper{
-  width: 100vw;
-  position: absolute;
-  overflow: hidden;
+  width: 100%;
+  height: 200%;
+  background-image:url(https://raw.githubusercontent.com/laaledesiempre/newresume/reactVersion/public/fando.webp) ;
+  position: fixed;
   z-index: -1;
-  top: 0;
+  top:0;
   left: 0;
 }
-.image-wrapper > img{
-  min-width:1000px;
-  width: 100vw;
-  z-index: -1;
-  opacity: 0.4;
+.image-wrapper:nth-child(1){
+  width: 100%;
+  height: 200%;
+  background-image:url(https://raw.githubusercontent.com/laaledesiempre/newresume/reactVersion/public/fando.webp) ;
+  
+  position: fixed;
+  background-image: linear-gradient(#1a0154, black);
+  z-index: -2;
+  top:0;
+  left: 0;
 }
